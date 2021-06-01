@@ -8,7 +8,7 @@ Praktikum dilakukan dengan modul praktikum yang sudah disediakan.
 
 - File praktikum terdapat pada folder **lab8_php_datababase**.
 - File database terdapat pada folder **lab8_php_datababase** dengan nama **database.sql**.
-- 
+
 
 ## 1. Membuat Database
 
@@ -27,7 +27,7 @@ Masukan kode seperti di atas untuk membuat kategori tabel seperti di bawah ini.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/2a.jpg)
 
-## 2. Mengisi Tabel
+## 3. Mengisi Tabel
 
 Masukan kode berikut untuk mengisi nilai ke dalam tabel yang sudah dibuat.
 
@@ -37,7 +37,7 @@ Tabel yang sudah diisi akan terlihat seperti ini.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/3a.jpg)
 
-## 2. Membuat Folder Untuk Program
+## 4. Membuat Folder Untuk Program
 
 Folder yang akan dibuat biasanya disimpan pada folder tertentu tergantung aplikasi server yang digunakan.
 Di sini saya menggunakan **xampp versi 3.2.4** yang disimpan di partisi penyimpanan C pada sistem operasi windows.
@@ -48,7 +48,7 @@ Setelah folder dibuat, folder dapat dilihat pada browser.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/4a.jpg)
 
-## 3. Membuat File Koneksi
+## 5. Membuat File Koneksi
 
 Selanjutnya membuat file koneksi.php program didalam folder yang dibuat tadi.
 
@@ -60,7 +60,7 @@ Jika koneksi berhasil, maka akan muncul pesan seperti ini dengan mengakses file 
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/5.jpg)
 
-## Menampilkan data
+## 6. Menampilkan data
 
 Menampilkan data dari database menggunakan operasi **read** dari empat operasi dasar yaitu **Create** (membuat), **Read** (membaca), **Update** (memperbarui) dan **Delete** (menghapus). Operasi read dapat membaca data  yang dipilih yang ada pada database dan menampilkannya pada browser.
 
@@ -72,7 +72,7 @@ Kode yang digunakan :
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/6_code.jpg)
 
-## Menambah data
+## 7. Menambah data
 
 Menambah data menggunakan operasi Create. Data yang di submit pada halaman ini akan disimpan ke dalam tabel pada database.
 
@@ -84,7 +84,7 @@ Kode yang digunakan :
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/7_code_b.jpg)
 
-## Memperbarui data
+## 8. Memperbarui data
 
 Memperbarui data (update) dilakukan dengan mengambil data dari database ke browser lalu mengirimkannya kembali ke server untuk disimpan setelah data selesai diubah.
 
@@ -98,7 +98,7 @@ Kode yang digunakan :
 
 ![enter image description here](https://github.com/antonmartinus72/Lab8Web/raw/main/Screenshoot/8_code_b.jpg)
 
-## Menghapus data
+## 9. Menghapus data
 
 Menghapus data (Delete) digunakan untuk menghiangkan record pada tabel database.
 
